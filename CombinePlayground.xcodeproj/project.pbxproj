@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C182AE51ACF9913A44D0C4E2 /* Pods_CombinePlayground_CombinePlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C7671F3F2130EF6AC6795 /* Pods_CombinePlayground_CombinePlaygroundTests.framework */; };
+		F7B334D571680AB473132CE8 /* Pods_CombinePlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882DE47644127330640AC33B /* Pods_CombinePlayground.framework */; };
 		F980FD9025E8DBA200FE701B /* CombinePlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F980FD8625E8DBA200FE701B /* CombinePlayground.framework */; };
 		F980FD9525E8DBA200FE701B /* CombinePlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F980FD9425E8DBA200FE701B /* CombinePlaygroundTests.swift */; };
 		F980FD9725E8DBA200FE701B /* CombinePlayground.h in Headers */ = {isa = PBXBuildFile; fileRef = F980FD8925E8DBA200FE701B /* CombinePlayground.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,12 +25,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4988BC5F5460B72A06FD16 /* Pods-CombinePlayground-CombinePlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombinePlayground-CombinePlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-CombinePlayground-CombinePlaygroundTests/Pods-CombinePlayground-CombinePlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		2731E072429C8ED7A900FA5E /* Pods-CombinePlayground-CombinePlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombinePlayground-CombinePlaygroundTests.debug.xcconfig"; path = "Target Support Files/Pods-CombinePlayground-CombinePlaygroundTests/Pods-CombinePlayground-CombinePlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		668962F4834AD56113348688 /* Pods-CombinePlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombinePlayground.debug.xcconfig"; path = "Target Support Files/Pods-CombinePlayground/Pods-CombinePlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		75B32C783F4F31F6D63E1BF0 /* Pods-CombinePlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombinePlayground.release.xcconfig"; path = "Target Support Files/Pods-CombinePlayground/Pods-CombinePlayground.release.xcconfig"; sourceTree = "<group>"; };
+		882DE47644127330640AC33B /* Pods_CombinePlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombinePlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31C7671F3F2130EF6AC6795 /* Pods_CombinePlayground_CombinePlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombinePlayground_CombinePlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F980FD8625E8DBA200FE701B /* CombinePlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombinePlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F980FD8925E8DBA200FE701B /* CombinePlayground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinePlayground.h; sourceTree = "<group>"; };
 		F980FD8A25E8DBA200FE701B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F980FD8F25E8DBA200FE701B /* CombinePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombinePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F980FD9425E8DBA200FE701B /* CombinePlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinePlaygroundTests.swift; sourceTree = "<group>"; };
 		F980FD9625E8DBA200FE701B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CCB35225E8DFED002A550C /* Combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Combine.playground; path = "../../../Library/Autosave Information/Combine.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B334D571680AB473132CE8 /* Pods_CombinePlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +54,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				F980FD9025E8DBA200FE701B /* CombinePlayground.framework in Frameworks */,
+				C182AE51ACF9913A44D0C4E2 /* Pods_CombinePlayground_CombinePlaygroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC5F5877F707E1342B93C73B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882DE47644127330640AC33B /* Pods_CombinePlayground.framework */,
+				F31C7671F3F2130EF6AC6795 /* Pods_CombinePlayground_CombinePlaygroundTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E373437FB14DC16A2AF6695C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				668962F4834AD56113348688 /* Pods-CombinePlayground.debug.xcconfig */,
+				75B32C783F4F31F6D63E1BF0 /* Pods-CombinePlayground.release.xcconfig */,
+				2731E072429C8ED7A900FA5E /* Pods-CombinePlayground-CombinePlaygroundTests.debug.xcconfig */,
+				0C4988BC5F5460B72A06FD16 /* Pods-CombinePlayground-CombinePlaygroundTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F980FD7C25E8DBA200FE701B = {
 			isa = PBXGroup;
 			children = (
+				F9CCB35225E8DFED002A550C /* Combine.playground */,
 				F980FD8825E8DBA200FE701B /* CombinePlayground */,
 				F980FD9325E8DBA200FE701B /* CombinePlaygroundTests */,
 				F980FD8725E8DBA200FE701B /* Products */,
+				E373437FB14DC16A2AF6695C /* Pods */,
+				CC5F5877F707E1342B93C73B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +138,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F980FD9A25E8DBA300FE701B /* Build configuration list for PBXNativeTarget "CombinePlayground" */;
 			buildPhases = (
+				9D0F725A57D2E3FA7C0A5352 /* [CP] Check Pods Manifest.lock */,
 				F980FD8125E8DBA200FE701B /* Headers */,
 				F980FD8225E8DBA200FE701B /* Sources */,
 				F980FD8325E8DBA200FE701B /* Frameworks */,
@@ -122,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F980FD9D25E8DBA300FE701B /* Build configuration list for PBXNativeTarget "CombinePlaygroundTests" */;
 			buildPhases = (
+				116011E28750BC45AC77C32E /* [CP] Check Pods Manifest.lock */,
 				F980FD8B25E8DBA200FE701B /* Sources */,
 				F980FD8C25E8DBA200FE701B /* Frameworks */,
 				F980FD8D25E8DBA200FE701B /* Resources */,
+				9E70C78FB9A587F1DB99DDDB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +225,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116011E28750BC45AC77C32E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CombinePlayground-CombinePlaygroundTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D0F725A57D2E3FA7C0A5352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CombinePlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E70C78FB9A587F1DB99DDDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombinePlayground-CombinePlaygroundTests/Pods-CombinePlayground-CombinePlaygroundTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombinePlayground-CombinePlaygroundTests/Pods-CombinePlayground-CombinePlaygroundTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CombinePlayground-CombinePlaygroundTests/Pods-CombinePlayground-CombinePlaygroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F980FD8225E8DBA200FE701B /* Sources */ = {
@@ -340,6 +441,7 @@
 		};
 		F980FD9B25E8DBA300FE701B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668962F4834AD56113348688 /* Pods-CombinePlayground.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -364,6 +466,7 @@
 		};
 		F980FD9C25E8DBA300FE701B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B32C783F4F31F6D63E1BF0 /* Pods-CombinePlayground.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -388,6 +491,7 @@
 		};
 		F980FD9E25E8DBA300FE701B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2731E072429C8ED7A900FA5E /* Pods-CombinePlayground-CombinePlaygroundTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XLW76U7H2R;
@@ -406,6 +510,7 @@
 		};
 		F980FD9F25E8DBA300FE701B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4988BC5F5460B72A06FD16 /* Pods-CombinePlayground-CombinePlaygroundTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XLW76U7H2R;
